@@ -20,7 +20,7 @@ headers = {"Content-Type": "application/json", "api-key": "f089541dc0a74f2ca5bcc
 
 
 #def env(apikey):
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = ''
 
 def construct_index(directory_path):
     max_input_size = 4096
