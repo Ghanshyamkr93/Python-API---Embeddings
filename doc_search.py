@@ -9,7 +9,7 @@ api = Api(app)
 
 
 def env(apikey):
-       os.environ["OPENAI_API_KEY"] = apikey
+       os.environ["OPENAI_API_KEY"] = apikey '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'
 
 def construct_index(directory_path):
     max_input_size = 4096
